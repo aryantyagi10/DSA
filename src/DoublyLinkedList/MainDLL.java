@@ -10,7 +10,10 @@ public class MainDLL {
             myDLL.prepend(3);
            // myDLL.removeFirst();
 
-        System.out.println(myDLL.get(1).value);
+        myDLL.insert(1, 10);
+        myDLL.remove(1);
+
+        //System.out.println(myDLL.get(1).value);
 
             myDLL.getHead();
             myDLL.getTail();
